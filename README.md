@@ -1,1 +1,1 @@
-Triangle Oascel, docker,minikube
+Pascal Triangle,docker,minikube
