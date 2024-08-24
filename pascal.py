@@ -32,6 +32,7 @@ dag = DAG(
     default_args=default_args,
     description='DAG for Pascal Triangle',
     schedule_interval='44 11 * * *',
+    catchup=False
 )
 
 task_print_pascals_triangle = PythonOperator(
